@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
 
   # Spree Essentials
   s.add_runtime_dependency('spree_essentials', '~> 0.6.0')
-  s.add_dependency('deface', '1.0.0.rc2')
+  s.add_dependency('deface', '~> 1.0.0')
   # Development
   s.add_development_dependency('spree_sample', '~> 1.3')
 	s.add_development_dependency('dummier',      '~> 0.3.2')
