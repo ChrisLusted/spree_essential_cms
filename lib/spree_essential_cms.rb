@@ -18,4 +18,4 @@ end
 
 SpreeEssentials.register :cms, SpreeEssentialCms
 
-require 'spree_multi_lingual'
+#require 'spree_multi_lingual'

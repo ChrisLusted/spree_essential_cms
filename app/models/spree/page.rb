@@ -9,7 +9,7 @@ class Spree::Page < ActiveRecord::Base
 
   end
 
-  translates :title, :nav_title, :path, :meta_title, :meta_description, :meta_keywords
+  #translates :title, :nav_title, :path, :meta_title, :meta_description, :meta_keywords
 
   attr_accessible :title, :path, :nav_title, :meta_title, :meta_description, :meta_keywords, :accessible, :visible
   alias_attribute :name, :title

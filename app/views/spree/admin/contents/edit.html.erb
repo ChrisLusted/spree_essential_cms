@@ -8,7 +8,7 @@
 
 
 <%= form_for([:admin, @page, @content], :html => { :multipart => true }) do |f| %>
-  <%= render "spree/admin/shared/language_dropdown", :object => @content -%>
+  <%#= render "spree/admin/shared/language_dropdown", :object => @content -%>
 
   <%= render "form", :form => f %>
   <p class="form-buttons">
